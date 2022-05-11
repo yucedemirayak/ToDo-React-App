@@ -1,0 +1,68 @@
+.todo-header {
+    width: 100%;
+    max-width: 414px;
+  }
+
+  .todo-title {
+    color: white;
+    margin-top: 36px !important;
+    margin-left: 34px !important;
+    height: 48px !important;
+    cursor: context-menu;
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Edge, Opera and Firefox */
+  }
+
+  .todo-button-group {
+    width: 100%;
+    max-width: 414px;
+    margin-top: 65px;
+    padding-right: 24px !important;
+  }
+  
+  .todo-clear-all {
+    width: 53px;
+    border: 2px solid #ffa800;
+    box-sizing: border-box;
+    border-radius: 30px;
+    margin-right: 10px;
+    font-size: 30px;
+    line-height: 5px;
+    color: white;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+
+  .todo-clear-all:hover .fa-xmark {
+    transition: 0.5s;
+    transform: rotate(360deg);
+  }
+
+  .todo-add-icon {
+    width: 53px;
+    height: 53px;
+    background: rgba(255, 168, 0, 0.75);
+    border: 2px solid #ffa800;
+    box-sizing: border-box;
+    border-radius: 30px;
+    font-size: 30px;
+    line-height: 5px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+  }
+  
+  .todo-add-icon:hover .fa-plus {
+    transition: 0.5s;
+    transform: rotate(360deg);
+  }

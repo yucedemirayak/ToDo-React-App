@@ -1,0 +1,61 @@
+::-webkit-scrollbar {
+    width: 0%;
+  }
+
+body {
+    font-family: "Nunito Sans", sans-serif !important;
+    display: flex;
+    justify-content: center;
+  }
+
+  h1 {
+    margin: 0 !important;
+    font-weight: 700 !important;
+    font-size: 36px !important;
+    line-height: 48px !important;
+    position: relative;
+  }
+  
+  h2 {
+    font-weight: 600 !important;
+    font-size: 24px !important;
+    line-height: 33px !important;
+    color: black !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    position: relative;
+  }
+  
+  h3 {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-weight: 400 !important;
+    font-size: 19px !important;
+    line-height: 26px !important;
+    color: #707070 !important;
+    position: relative;
+  }
+  
+  h4 {
+    font-weight: 600 !important;
+    font-size: 24px !important;
+    line-height: 33px !important;
+    color: black !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    position: relative;
+  }
+
+.app-container {
+    margin: 5% !important;
+    width: 414px;
+    height: 736px;
+    overflow: hidden;
+    background-image: url('../public/images/Background/todo-bg.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px #707070;
+    box-sizing: content-box;
+  }
