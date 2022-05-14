@@ -1,5 +1,5 @@
 import React , {useEffect} from 'react'
-import "./style.css";
+import "./style.scss";
 
 const Background = ({ setShow }) => {
     useEffect(() => {

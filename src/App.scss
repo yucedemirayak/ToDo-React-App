@@ -59,3 +59,12 @@ body {
     box-shadow: 5px 5px 15px #707070;
     box-sizing: content-box;
   }
+
+  .toaster-pos {
+    margin-top: 30px;
+    margin-left: 40px;
+    background: white !important;
+    color: red !important;
+    width: 444px;
+    border: 1px solid !important;
+  }
